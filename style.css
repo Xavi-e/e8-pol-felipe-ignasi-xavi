@@ -1,13 +1,15 @@
-
 :root {
-    --color-fondo: #c2e7da;
-    --color-targeta: #6290c3;
-    --color-letra: #660000;
-    --color-tick: #006600;
-}
-* {
-    box-sizing: border-box;
+  --color-fondo: #c2e7da;
+  --color-targeta: #6290c3;
+  --color-letra: #660000;
+  --color-tick: #006600;
 }
 body {
-    margin: 0;
+  background-color: var(--color-fondo);
+}
+.contenido-caja {
+  background-color: var(--color-targeta);
+}
+.circle {
+  background-color: var(--color-letra);
 }
