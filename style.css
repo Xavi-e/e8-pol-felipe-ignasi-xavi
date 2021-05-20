@@ -4,7 +4,7 @@
   --color-letra: #660000;
   --color-tick: #006600;
 }
-body {
+.main-container {
   background-color: var(--color-fondo);
 }
 .contenido-caja {
