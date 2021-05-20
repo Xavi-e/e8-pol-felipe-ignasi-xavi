@@ -1,0 +1,12 @@
+:root{
+    --color-fondo: #c2e7da;
+    --color-targeta: #6290c3;
+    --color-letra: #660000;
+    --color-tick: #006600;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
