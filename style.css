@@ -4,6 +4,20 @@
   --color-letra: #660000;
   --color-tick: #006600;
 }
+h1 {
+  font-size: 25px;
+}
+h2 {
+  font-size: 20px;
+}
+.cabecera p {
+  font-size: 12px;
+}
+.cabecera p,
+h1,
+h2 {
+  font-weight: 200;
+}
 .main-container {
   background-color: var(--color-fondo);
 }
