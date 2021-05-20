@@ -5,10 +5,10 @@
   --color-tick: #006600;
 }
 h1 {
-  font-size: 25px;
+  font-size: 28px;
 }
 h2 {
-  font-size: 20px;
+  font-size: 23px;
 }
 .cabecera p {
   font-size: 12px;
@@ -20,10 +20,18 @@ h2 {
 }
 .main-container {
   background-color: var(--color-fondo);
+  height: 100vh;
 }
 .contenido-caja {
   background-color: var(--color-targeta);
+  height: 200px;
+  margin: 30px 0;
+  border-radius: 40px;
+  border: 2px solid #fff;
 }
 .circle {
   background-color: var(--color-letra);
+}
+.contenido-principal {
+  margin: 30px 200px;
 }
