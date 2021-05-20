@@ -37,10 +37,11 @@ h2 {
 }
 
 
-.contenido-caja:hover img{
+.contenido-caja:hover .rounded-circle{
 transition: transform 0.5s;
 transform-style: preserve-3d;
 transform: rotateY(180deg);
+}
 
 .foto-fary {
   width: 140px;
