@@ -35,3 +35,9 @@ h2 {
 .contenido-principal {
   margin: 30px 200px;
 }
+
+.contenido-caja:hover img{
+transition: transform 0.5s;
+transform-style: preserve-3d;
+transform: rotateY(180deg);
+}
