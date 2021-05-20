@@ -1,14 +1,14 @@
-:root {
-  --color-fondo: #c2e7da;
-  --color-targeta: #6290c3;
-  --color-letra: #660000;
-  --color-tick: #006600;
+:root{
+    --color-fondo: #c2e7da;
+    --color-targeta: #6290c3;
+    --color-letra: #660000;
+    --color-tick: #006600;
 }
-h1 {
-  font-size: 28px;
+*{
+    box-sizing: border-box;
 }
-h2 {
-  font-size: 23px;
+body{
+    margin: 0;
 }
 .cabecera p {
   font-size: 12px;
@@ -68,3 +68,4 @@ h3 {
 .contingut-person {
   font-size: 20px;
 }
+
