@@ -20,7 +20,6 @@ h2 {
 }
 .main-container {
   background-color: var(--color-fondo);
-  height: 100vh;
 }
 .contenido-caja {
   background-color: var(--color-targeta);
@@ -34,13 +33,13 @@ h2 {
 }
 .contenido-principal {
   margin: 30px 200px;
+  height: 100vh;
 }
 
-
-.contenido-caja:hover .rounded-circle{
-transition: transform 0.5s;
-transform-style: preserve-3d;
-transform: rotateY(180deg);
+.contenido-caja:hover .rounded-circle {
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
 }
 
 .foto-fary {
