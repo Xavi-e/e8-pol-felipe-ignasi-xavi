@@ -4,12 +4,7 @@
     --color-letra: #660000;
     --color-tick: #006600;
 }
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 0;
-}
+
 .cabecera p {
   font-size: 12px;
 }
@@ -69,13 +64,3 @@ h3 {
   font-size: 20px;
 }
 
-.icono{
-  position:relative;
-  left: 93%;
-  bottom: 4%;
-  opacity: 0;
-}
-
-.contenido-caja:hover .icono {
-opacity: 1;
-}
