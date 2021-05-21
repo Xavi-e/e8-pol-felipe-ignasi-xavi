@@ -82,13 +82,9 @@ h3 {
   font-size: 20px;
 }
 
-.icono {
-  position: relative;
-  left: 93%;
-  bottom: 4%;
-  opacity: 0;
+.icono{
+  opacity:0;
 }
-.contenido-caja:hover .icono {
+.contenido-caja:hover .icono{
   opacity: 1;
 }
-
