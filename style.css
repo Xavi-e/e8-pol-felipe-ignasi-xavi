@@ -64,3 +64,9 @@ h3 {
   font-size: 20px;
 }
 
+.icono{
+  opacity:0;
+}
+.contenido-caja:hover .icono{
+  opacity: 1;
+}
