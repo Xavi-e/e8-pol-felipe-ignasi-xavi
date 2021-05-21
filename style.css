@@ -4,6 +4,7 @@
   --color-letra: #660000;
   --color-tick: #006600;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -12,6 +13,7 @@ body {
 }
 .cabecera {
   height: 70px;
+
 }
 .barra-informativa {
   height: 50px;
@@ -79,6 +81,7 @@ h3 {
 .contingut-person {
   font-size: 20px;
 }
+
 .icono {
   position: relative;
   left: 93%;
@@ -88,3 +91,4 @@ h3 {
 .contenido-caja:hover .icono {
   opacity: 1;
 }
+
