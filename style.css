@@ -42,6 +42,9 @@ h2 {
   margin: 30px 0;
   border-radius: 40px;
   border: 2px solid #fff;
+  justify-content: flex-end;
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 .circle {
   background-color: var(--color-letra);
@@ -80,11 +83,4 @@ h3 {
 }
 .contingut-person {
   font-size: 20px;
-}
-
-.icono{
-  opacity:0;
-}
-.contenido-caja:hover .icono{
-  opacity: 1;
 }
